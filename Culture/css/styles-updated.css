@@ -1,4 +1,4 @@
-/* general style---------------------*/
+/* General style--------------------- */
 :root {
     --navy: #063455;
     --green: #2E8B57;
@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 
-/* Navigation bar------------------*/
+/* Navigation bar------------------ */
 .navbar {
     background-color: white;
     box-shadow: 0px 1px 15px 1px rgb(0, 0, 0, .1);
@@ -28,7 +28,7 @@ a {
     height: 62px;
 }
 
-/* orange buttons that carries a strong message style */
+/* Orange buttons that carry a strong message style */
 .strong-message {
     background-color: var(--orange);
     color: white;
@@ -48,7 +48,7 @@ a {
     font-weight: bold;
 }
 
-/* removing unnecessary bootstrap styles */
+/* Removing unnecessary Bootstrap styles */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .strong-message:focus,
@@ -60,7 +60,7 @@ a {
     content: none;
 }
 
-/* editing navigation bar bootstrap styles */
+/* Editing navigation bar Bootstrap styles */
 .nav-link:hover,
 .dropdown-item:hover,
 .dropdown-item:active,
@@ -70,7 +70,7 @@ a {
     color: var(--green);
 }
 
-/* color of menu icon and text */
+/* Color of menu icon and text */
 .dark-txt,
 .navbar-toggler {
     color: var(--navy);
@@ -82,15 +82,15 @@ a {
 
 .nav-link {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16;
 }
 
-/** to add a little space between items **/
-.nav-item{
+/* Adding a little space between items */
+.nav-item {
     margin-right: 35px;
 }
 
-/* green animated under-line */
+/* Green animated underline */
 .under-line {
     width: fit-content;
     position: relative;
@@ -111,7 +111,7 @@ a {
     width: 100%;
 }
 
-/* footer------------------*/
+/* Footer------------------ */
 footer {
     background-color: var(--navy);
 }
@@ -130,5 +130,56 @@ footer {
 .footer-element:hover, 
 .footer-sub-list:hover {
     color: var(--light-gray);
+}
+
+/* Article------------------ */
+
+/* Cover styles */
+.cover-container {
+    background-image: var(--bg-image); /* The image used as a cover is passed as a variable from <html style=""> */
+    background-color: var(--light-gray);
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* Custom container */
+.custom-container {
+    max-width: 1300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+/* Image styles */
+.article-image {
+    height: auto;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+/* Header styles */
+.header1 {
+    color: var(--navy);
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.sub-header {
+    color: var(--navy);
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+/* Paragraph styles */
+.article-paragraph {
+    color: var(--navy);
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.41176;
+    margin-top: 10px; 
 }
 
